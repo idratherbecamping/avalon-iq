@@ -45,7 +45,7 @@ export default function Home() {
             <h1 className="text-5xl sm:text-6xl md:text-7xl font-bold text-secondary-900 mb-8 leading-tight">
               We Are Your{' '}
               <span className="bg-gradient-to-r from-primary-600 to-primary-400 bg-clip-text text-transparent font-extrabold">
-                Chief AI Officer
+              AI Innovation Engine
               </span>
             </h1>
             <p className="text-xl text-secondary-600 mb-12 max-w-3xl mx-auto leading-relaxed">
@@ -269,7 +269,7 @@ export default function Home() {
               Let's discuss how we can help you leverage AI to drive growth and efficiency in your organization.
             </p>
             <Link href="mailto:contact@avalon-iq.com" className="inline-block bg-gradient-to-r from-primary-600 to-primary-500 text-white px-8 py-4 rounded-full text-lg font-medium hover:shadow-lg hover:shadow-primary-100 transition-all duration-300">
-              Schedule a Consultation
+              Get Started
             </Link>
           </div>
         </div>
