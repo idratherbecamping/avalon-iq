@@ -5,8 +5,14 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Avalon IQ - Your AI Transformation Partner",
-  description: "Avalon IQ helps businesses navigate the AI landscape and implement solutions that drive real business value.",
+  title: "AI Automation for Construction | Avalon IQ - Save 12 Hours* Weekly",
+  description: "Custom AI automation solutions for construction companies. Save 12 hours* per week on repetitive tasks. Streamline project management, estimates, and operations with AI.",
+  keywords: "construction AI, construction automation, AI for contractors, construction technology, construction software, project management AI, construction estimating software, AI construction tools",
+  openGraph: {
+    title: "AI Automation for Construction | Avalon IQ",
+    description: "Save 12 hours* weekly with custom AI automation for your construction business.",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
