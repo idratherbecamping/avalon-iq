@@ -54,10 +54,10 @@ export default function Home() {
           <div className="text-center max-w-4xl mx-auto">
             <h1 className="text-5xl sm:text-6xl font-bold text-gray-900 mb-6">
               Custom AI Solutions for
-              <span className="block text-blue-600">Your Construction Business</span>
+              <span className="block text-blue-600">Your Business</span>
             </h1>
             <p className="text-xl text-gray-600 mb-8">
-              We come to you. We learn your processes. We build AI that saves you 12 hours* every week.
+              We come to you. We learn your processes. We build AI that saves you 20+ hours* every week.
               No generic software, no one-size-fits-all. Just custom automation designed specifically 
               for how your business works.
             </p>
@@ -82,7 +82,7 @@ export default function Home() {
       <section className="bg-blue-600 py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <div className="text-3xl font-bold text-white">On Average We Save Our Customers 12 Hours a Week</div>
+            <div className="text-3xl font-bold text-white">On Average We Save Our Customers 20+ Hours a Week</div>
           </div>
         </div>
       </section>
@@ -106,8 +106,8 @@ export default function Home() {
               </div>
               <h3 className="text-xl font-semibold mb-2">On-Site Discovery</h3>
               <p className="text-gray-600">
-                We visit your office and job sites. We shadow your team, learn your 
-                workflows, and identify where AI can save the most time.
+                We visit your workplace and shadow your team. We learn your 
+                workflows and identify where AI can save the most time.
               </p>
             </div>
             <div className="text-center">
@@ -143,29 +143,29 @@ export default function Home() {
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Stop losing money to inefficiency. We identify where you're wasting time and build 
-              custom AI solutions that save you 12+ hours* every week on tasks that don't make you money.
+              custom AI solutions that save you 20+ hours* every week on tasks that don't make you money.
             </p>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-white p-8 rounded-lg shadow-sm border border-gray-200">
               <h3 className="text-xl font-semibold mb-3">Intelligent Workflow Automation</h3>
               <p className="text-gray-600">
-                Streamline your entire operation from bid to completion. AI that learns 
+                Streamline your entire operation from start to finish. AI that learns 
                 your processes and automates repetitive tasks across all departments.
               </p>
             </div>
             <div className="bg-white p-8 rounded-lg shadow-sm border border-gray-200">
-              <h3 className="text-xl font-semibold mb-3">Workplace Compliance & Safety</h3>
+              <h3 className="text-xl font-semibold mb-3">Compliance & Documentation</h3>
               <p className="text-gray-600">
-                Automated safety documentation, incident reporting, and compliance tracking. 
+                Automated documentation, incident reporting, and compliance tracking. 
                 AI ensures nothing falls through the cracks.
               </p>
             </div>
             <div className="bg-white p-8 rounded-lg shadow-sm border border-gray-200">
-              <h3 className="text-xl font-semibold mb-3">Hour Tracking & Payroll</h3>
+              <h3 className="text-xl font-semibold mb-3">Time Tracking & Payroll</h3>
               <p className="text-gray-600">
-                AI-powered time tracking that automatically logs hours from site photos, 
-                GPS data, and integrates with your payroll system.
+                AI-powered time tracking that automatically logs hours from multiple data sources 
+                and integrates with your payroll system.
               </p>
             </div>
             <div className="bg-white p-8 rounded-lg shadow-sm border border-gray-200">
@@ -176,17 +176,17 @@ export default function Home() {
               </p>
             </div>
             <div className="bg-white p-8 rounded-lg shadow-sm border border-gray-200">
-              <h3 className="text-xl font-semibold mb-3">AI Vision for Job Sites</h3>
+              <h3 className="text-xl font-semibold mb-3">AI Vision Solutions</h3>
               <p className="text-gray-600">
-                Computer vision that monitors progress, identifies safety issues, 
-                and tracks materials from your existing site cameras.
+                Computer vision that monitors operations, identifies issues, 
+                and tracks assets from your existing camera systems.
               </p>
             </div>
             <div className="bg-white p-8 rounded-lg shadow-sm border border-gray-200">
               <h3 className="text-xl font-semibold mb-3">Custom AI Assistants</h3>
               <p className="text-gray-600">
                 Voice and chat assistants that answer questions using your company's 
-                knowledge base, handle RFIs, and guide field teams.
+                knowledge base, handle requests, and guide your teams.
               </p>
             </div>
           </div>
@@ -216,7 +216,7 @@ export default function Home() {
       <section id="contact" className="py-20 px-4 sm:px-6 lg:px-8 bg-blue-600">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
-            Ready to Save 12 Hours Every Week?
+            Ready to Save 20+ Hours Every Week?
           </h2>
           <p className="text-xl text-blue-100 mb-8">
             Start using AI to work smarter, not harder.
@@ -242,8 +242,8 @@ export default function Home() {
               <span className="text-xl font-semibold text-white">Avalon IQ</span>
             </div>
             <p className="text-gray-400 max-w-2xl mx-auto">
-              Custom AI solutions for construction businesses. 
-              We come to you, learn your processes, and build automation that saves you 12+ hours* every week.
+              Custom AI solutions for businesses that want to work smarter. 
+              We come to you, learn your processes, and build automation that saves you 20+ hours* every week.
             </p>
             <p className="text-gray-400 mt-4">
               <a href="mailto:gannon@avalon-iq.com" className="hover:text-white">gannon@avalon-iq.com</a>
