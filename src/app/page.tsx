@@ -194,23 +194,25 @@ export default function Home() {
       </section>
 
       {/* Testimonial Section */}
-      {/* <section className="py-20 px-4 sm:px-6 lg:px-8">
+      <section className="py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto text-center">
           <div className="bg-gray-50 p-12 rounded-2xl">
             <p className="text-2xl text-gray-700 italic mb-8">
-              "Avalon IQ cut our estimating time by 85%. What used to take me 
-              all Friday afternoon now takes 30 minutes. It's like having a 
-              full-time assistant who knows construction inside out."
+              "The team at Avalon IQ was exceptional to work with. We needed a custom
+              timekeeping solution and they delivered exactly what we needed, flawlessly.
+              The customer service stood out—clear communication throughout and continued
+              support during implementation. I'd highly recommend Avalon IQ for streamlining
+              any business process. If you can envision it, they'll make it happen."
             </p>
             <div className="flex items-center justify-center">
               <div>
-                <div className="font-semibold text-gray-900">Construction Company Owner</div>
-                <div className="text-gray-600">Toronto, ON</div>
+                <div className="font-semibold text-gray-900">Joey, Operations Manager</div>
+                <div className="text-gray-600">Stone Roofing Co.</div>
               </div>
             </div>
           </div>
         </div>
-      </section> */}
+      </section>
 
       {/* CTA Section */}
       <section id="contact" className="py-20 px-4 sm:px-6 lg:px-8 bg-blue-600">
