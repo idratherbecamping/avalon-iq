@@ -5,12 +5,12 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Avalon IQ | Cut Your Operating Costs with AI",
-  description: "Freight, logistics, and back-office work, cut with AI. I find where your margin leaks in an operations-heavy business and fix it.",
-  keywords: "operating expenses, opex reduction, freight consolidation, logistics costs, AI automation, workflow automation, AI consulting, margin improvement, exit readiness",
+  title: "Avalon IQ | Cut Your Operating Costs. Raise Your Sale Price.",
+  description: "Planning to sell in the next 1 to 3 years? I cut your operating costs with AI, from freight and logistics to back-office paperwork, so your EBITDA and sale price go up.",
+  keywords: "exit readiness, sell my business, EBITDA, operating expenses, opex reduction, business valuation, exit planning, freight consolidation, AI automation, margin improvement",
   openGraph: {
-    title: "Avalon IQ | Cut your operating costs.",
-    description: "Freight, logistics, and back-office work, cut with AI. I find where your margin leaks and fix it.",
+    title: "Avalon IQ | Cut your operating costs. Raise your sale price.",
+    description: "Planning to sell? I cut your operating costs with AI before you go to market, so your EBITDA and sale price go up.",
     type: "website",
   },
 };

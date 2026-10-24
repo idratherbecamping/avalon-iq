@@ -3,16 +3,18 @@ import Image from 'next/image'
 
 export const CHECKLIST_HREF = "mailto:gannon@avalon-iq.com?subject=Opex%20Before%20Exit%20checklist"
 
+// A real link to the booking page, so it still works before the Cal.com popup loads.
 export function BookButton({ className, label }: { className: string, label: string }) {
   return (
-    <button
+    <a
+      href="https://cal.com/avalon-iq/15min"
       data-cal-namespace="15min"
       data-cal-link="avalon-iq/15min"
       data-cal-config='{"layout":"month_view"}'
       className={className}
     >
       {label}
-    </button>
+    </a>
   )
 }
 
@@ -34,13 +36,14 @@ export function SiteNav() {
               <span className="text-xl font-semibold text-gray-900">Avalon IQ</span>
             </Link>
           </div>
-          <div className="hidden md:flex items-center space-x-8">
-            <Link href="#costs" className="text-gray-700 hover:text-blue-600 font-medium">What I Cut</Link>
-            <Link href="#plan" className="text-gray-700 hover:text-blue-600 font-medium">How It Works</Link>
-            <Link href="/exit" className="text-gray-700 hover:text-blue-600 font-medium">Selling Your Business?</Link>
+          <div className="flex items-center space-x-8">
+            <div className="hidden md:flex items-center space-x-8">
+              <Link href="#costs" className="text-gray-700 hover:text-blue-600 font-medium">What I Cut</Link>
+              <Link href="#plan" className="text-gray-700 hover:text-blue-600 font-medium">How It Works</Link>
+            </div>
             <BookButton
               label="Book a Review"
-              className="bg-blue-600 text-white px-6 py-2 rounded-md hover:bg-blue-700 font-medium"
+              className="bg-blue-600 text-white px-4 sm:px-6 py-2 rounded-md hover:bg-blue-700 font-medium"
             />
           </div>
         </div>
@@ -121,9 +124,9 @@ export function CostSection({ subtitle }: { subtitle: string }) {
             </p>
           </div>
           <div className="bg-white p-8 rounded-lg shadow-sm border border-gray-200">
-            <h3 className="text-xl font-semibold mb-3">Questions Only You Can Answer</h3>
+            <h3 className="text-xl font-semibold mb-3">An Assistant That Knows Your Business</h3>
             <p className="text-gray-600">
-              An assistant trained on how you run things, so your team stops calling you.
+              Trained on how you run things, so your team stops calling you.
             </p>
           </div>
         </div>
@@ -132,12 +135,15 @@ export function CostSection({ subtitle }: { subtitle: string }) {
   )
 }
 
-export function GuideSection() {
+export function GuideSection({ empathy }: { empathy: string }) {
   return (
     <>
       <section className="py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12 max-w-3xl mx-auto">
+            <p className="text-2xl text-gray-700 mb-8">
+              {empathy}
+            </p>
             <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
               You work with me.
             </h2>
@@ -163,8 +169,7 @@ export function GuideSection() {
         <div className="max-w-4xl mx-auto text-center">
           <div className="bg-gray-50 p-12 rounded-2xl">
             <p className="text-2xl text-gray-700 italic mb-8">
-              "We needed a custom timekeeping solution and they delivered exactly what we needed,
-              flawlessly. The customer service stood out—clear communication throughout and continued
+              "The customer service stood out—clear communication throughout and continued
               support during implementation."
             </p>
             <div className="flex items-center justify-center">
