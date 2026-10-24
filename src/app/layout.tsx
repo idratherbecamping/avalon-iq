@@ -6,11 +6,11 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Avalon IQ | Lower Costs. Higher Value. Exit-Ready AI Automation",
-  description: "Planning to sell your business? I cut your operating costs with AI automation before you go to market, so your margins, EBITDA, and sale price go up.",
+  description: "Cut your operating costs. Raise your sale price. I replace the manual work eating your margins with AI automation before you go to market.",
   keywords: "exit readiness, sell my business, EBITDA, operating expenses, opex reduction, AI automation, business valuation, exit planning, AI consulting, margin improvement",
   openGraph: {
-    title: "Avalon IQ | Sell your business for what it is worth",
-    description: "I cut your operating costs with AI automation before you go to market, so your EBITDA and sale price go up.",
+    title: "Avalon IQ | Cut your operating costs. Raise your sale price.",
+    description: "I replace the manual work eating your margins with AI automation before you go to market.",
     type: "website",
   },
 };
