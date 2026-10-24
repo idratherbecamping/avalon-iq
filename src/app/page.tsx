@@ -2,7 +2,6 @@ import Link from 'next/link'
 import CalSetup from '@/components/CalSetup'
 import {
   BookButton,
-  CHECKLIST_HREF,
   CostSection,
   GuideSection,
   PlanSection,
@@ -41,12 +40,6 @@ export default function Home() {
                 See What I Cut
               </Link>
             </div>
-            <p className="text-gray-600 mt-6">
-              Selling in 2 or 3 years?{' '}
-              <a href={CHECKLIST_HREF} className="text-blue-600 font-semibold hover:underline">
-                Get the Opex Before Exit checklist
-              </a>
-            </p>
           </div>
         </div>
       </section>
@@ -76,12 +69,6 @@ export default function Home() {
               className="bg-white text-blue-600 px-8 py-4 rounded-md text-lg font-semibold hover:bg-gray-100 transition"
             />
           </div>
-          <p className="text-blue-100 mt-6">
-            Selling in 2 or 3 years?{' '}
-            <a href={CHECKLIST_HREF} className="text-white font-semibold underline hover:no-underline">
-              Get the Opex Before Exit checklist
-            </a>
-          </p>
         </div>
       </section>
 

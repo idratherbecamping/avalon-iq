@@ -1,8 +1,6 @@
 import Link from 'next/link'
 import Image from 'next/image'
 
-export const CHECKLIST_HREF = "mailto:gannon@avalon-iq.com?subject=Opex%20Before%20Exit%20checklist"
-
 // A real link to the booking page, so it still works before the Cal.com popup loads.
 export function BookButton({ className, label }: { className: string, label: string }) {
   return (
