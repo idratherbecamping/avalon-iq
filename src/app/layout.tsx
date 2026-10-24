@@ -5,12 +5,12 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Custom AI Automation Solutions | Avalon IQ - Save 20+ Hours* Weekly",
-  description: "Custom AI automation solutions for businesses. Save 20+ hours* per week on repetitive tasks. We come to you, learn your processes, and build bespoke AI solutions.",
-  keywords: "custom AI solutions, business automation, AI consulting, workflow automation, process automation, AI development, bespoke AI, AI integration, business efficiency, AI transformation",
+  title: "Avalon IQ | Cut Your Operating Costs with AI",
+  description: "Freight, logistics, and back-office work, cut with AI. I find where your margin leaks in an operations-heavy business and fix it.",
+  keywords: "operating expenses, opex reduction, freight consolidation, logistics costs, AI automation, workflow automation, AI consulting, margin improvement, exit readiness",
   openGraph: {
-    title: "Custom AI Automation Solutions | Avalon IQ",
-    description: "Save 20+ hours* weekly with custom AI automation tailored to your business.",
+    title: "Avalon IQ | Cut your operating costs.",
+    description: "Freight, logistics, and back-office work, cut with AI. I find where your margin leaks and fix it.",
     type: "website",
   },
 };
