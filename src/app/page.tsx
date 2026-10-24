@@ -71,8 +71,8 @@ export default function Home() {
               <span className="block text-blue-600">Raise your sale price.</span>
             </h1>
             <p className="text-xl text-gray-600 mb-8">
-              I find the manual work eating your margins and replace it with AI automation,
-              before you go to market.
+              I find the costs eating your margins, from freight and logistics to back-office
+              paperwork, and cut them with AI before you go to market.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <BookReviewButton
@@ -111,10 +111,24 @@ export default function Home() {
               What I cut
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              The manual, owner-dependent work a buyer will spot in diligence.
+              The costs a buyer will spot in diligence.
             </p>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div className="md:col-span-2 lg:col-span-3 bg-white p-8 rounded-lg shadow-sm border-2 border-blue-600 flex flex-col md:flex-row md:items-center gap-6">
+              <div className="flex-1">
+                <h3 className="text-2xl font-semibold mb-3">Freight & Logistics</h3>
+                <p className="text-gray-600 text-lg">
+                  Consolidated freight, with your team's know-how turned into automated workflows.
+                </p>
+              </div>
+              <div className="md:w-72 md:border-l md:border-gray-200 md:pl-6">
+                <div className="text-4xl font-bold text-blue-600 mb-2">$1M / yr</div>
+                <p className="text-gray-600">
+                  in projected savings from freight consolidation and automation alone
+                </p>
+              </div>
+            </div>
             <div className="bg-white p-8 rounded-lg shadow-sm border border-gray-200">
               <h3 className="text-xl font-semibold mb-3">Timekeeping & Payroll</h3>
               <p className="text-gray-600">
@@ -166,11 +180,7 @@ export default function Home() {
               I do the site visit, I build the automation, and I answer the phone.
             </p>
           </div>
-          <div className="grid sm:grid-cols-3 gap-8 text-center">
-            <div className="bg-gray-50 p-8 rounded-lg">
-              <div className="text-4xl font-bold text-blue-600 mb-2">$1M / yr</div>
-              <p className="text-gray-600">in projected operating savings for a nationwide managed services provider</p>
-            </div>
+          <div className="grid sm:grid-cols-2 gap-8 text-center max-w-3xl mx-auto">
             <div className="bg-gray-50 p-8 rounded-lg">
               <div className="text-4xl font-bold text-blue-600 mb-2">5x</div>
               <p className="text-gray-600">average return across my builds</p>
@@ -226,7 +236,7 @@ export default function Home() {
               </div>
               <h3 className="text-xl font-semibold mb-2">Cut it with AI</h3>
               <p className="text-gray-600">
-                I build automation on the systems you already use.
+                I turn what your team knows into workflows AI runs, on the systems you already use.
               </p>
             </div>
             <div className="text-center">
